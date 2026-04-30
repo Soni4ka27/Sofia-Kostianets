@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Костянець Софія — Портфоліо</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══ NAVIGATION ══ -->
+  <nav>
+    <div class="nav-inner">
+      <span class="nav-brand">КС</span>
+      <div class="nav-links">
+        <button class="active" onclick="showPage('p1', this)">Про мене</button>
+        <button onclick="showPage('p2', this)">Резюме</button>
+        <button onclick="showPage('p3', this)">Аналітичний звіт</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════
+       PAGE 1 — ПРО МЕНЕ
+  ══════════════════════════════════ -->
+  <div id="p1" class="page active">
+    <div class="hero">
+      <div class="hero-decor"></div>
+      <div class="monogram">КС</div>
+      <h1>Костянець <span>Софія</span><br>Олександрівна</h1>
+      <p class="tagline">Студентка · ДТЕУ · Факультет ІТ</p>
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="ic-icon">🏛️</div>
+          <div>
+            <div class="ic-label">Університет</div>
+            <div class="ic-value">Державний торговельно-економічний університет (ДТЕУ)</div>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="ic-icon">💻</div>
+          <div>
+            <div class="ic-label">Факультет</div>
+            <div class="ic-value">Факультет інформаційних технологій</div>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="ic-icon">👥</div>
+          <div>
+            <div class="ic-label">Група</div>
+            <div class="ic-value">1-6 МЗ</div>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="ic-icon">📖</div>
+          <div>
+            <div class="ic-label">Дисципліна</div>
+            <div class="ic-value">Інформаційні технології в забезпеченні економічної безпеки держави</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════
+       PAGE 2 — РЕЗЮМЕ
+  ══════════════════════════════════ -->
+  <div id="p2" class="page">
+    <div class="content-wrap">
+      <div class="page-header">
+        <h2>Моє <span>Резюме</span></h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="resume-top">
+        <div class="resume-avatar">КС</div>
+        <div>
+          <div class="resume-name">Костянець Софія Олександрівна</div>
+          <div class="resume-sub">Студентка · Факультет інформаційних технологій · Група 1-6 МЗ</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>🎓 Освіта</h3>
+        <p><strong>Державний торговельно-економічний університет (ДТЕУ)</strong><br>
+        Факультет інформаційних технологій, група 1-6 МЗ<br>
+        Спеціальність: Інформаційні технології · Форма навчання: заочна</p>
+      </div>
+
+      <div class="card">
+        <h3>📚 Навчальна дисципліна</h3>
+        <p>Інформаційні технології в забезпеченні економічної безпеки держави — вивчення методів та інструментів аналізу економічних загроз, роботи з базами даних та аналітичних систем для оцінки стану економічної безпеки країни.</p>
+      </div>
+
+      <div class="two-col">
+        <div class="card">
+          <h3>💡 Навички</h3>
+          <div class="tags">
+            <span class="tag">MS Office</span>
+            <span class="tag">Excel</span>
+            <span class="tag">Аналіз даних</span>
+            <span class="tag">Інформаційні системи</span>
+            <span class="tag">Інтернет-ресурси</span>
+            <span class="tag">Командна робота</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>🌐 Мови</h3>
+          <ul>
+            <li>Українська — рідна</li>
+            <li>Англійська — базовий рівень</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>🎯 Мета та інтереси</h3>
+        <p>Отримання глибоких знань у сфері інформаційних технологій та їх застосування для забезпечення економічної безпеки держави. Прагнення до розвитку аналітичних компетентностей та практичного опанування сучасних ІТ-інструментів.</p>
+      </div>
+
+      <div class="card">
+        <h3>✨ Особисті якості</h3>
+        <ul>
+          <li>Відповідальність та уважність до деталей</li>
+          <li>Здатність до самостійного навчання</li>
+          <li>Аналітичне мислення</li>
+          <li>Комунікабельність та вміння працювати в команді</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════
+       PAGE 3 — АНАЛІТИЧНИЙ ЗВІТ
+  ══════════════════════════════════ -->
+  <div id="p3" class="page">
+    <div class="content-wrap">
+      <div class="page-header">
+        <h2>Аналітичний <span>Звіт</span></h2>
+        <div class="underline"></div>
+      </div>
+
+      <div class="country-banner">
+        <svg class="flag-img" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Прапор Канади">
+          <!-- Ліва червона смуга -->
+          <rect x="0"   y="0" width="150" height="300" fill="#D52B1E"/>
+          <!-- Біла центральна смуга -->
+          <rect x="150" y="0" width="300" height="300" fill="#FFFFFF"/>
+          <!-- Права червона смуга -->
+          <rect x="450" y="0" width="150" height="300" fill="#D52B1E"/>
+          <!-- Кленовий лист (офіційний 11-точковий) -->
+          <path fill="#D52B1E" d="
+            M300 42
+            l 9.6 28.9 30.4-8.1-17.5 25.2 26.5 13.3-26.5 5.7
+            3.8 28.4-26.3-15.1-26.3 15.1 3.8-28.4-26.5-5.7
+            26.5-13.3-17.5-25.2 30.4 8.1Z
+            M274 195 l-9 64 70 0-9-64-26 18Z
+          "/>
+        </svg>
+        <div>
+          <div class="country-name">Канада</div>
+          <div class="country-sub">Аналіз показників економічної безпеки держави</div>
+        </div>
+      </div>
+
+      <div class="assess-grid">
+        <div class="assess-card">
+          <div class="assess-icon">🌾</div>
+          <div>
+            <div class="assess-label">Виробництво зерна на одну особу</div>
+            <span class="badge optimal">Оптимальний</span>
+          </div>
+        </div>
+        <div class="assess-card">
+          <div class="assess-icon">💳</div>
+          <div>
+            <div class="assess-label">Сальдо поточного рахунку платіжного балансу</div>
+            <span class="badge satisf">Задовільний</span>
+          </div>
+        </div>
+        <div class="assess-card">
+          <div class="assess-icon">♻️</div>
+          <div>
+            <div class="assess-label">Частка відновлювальних джерел енергії</div>
+            <span class="badge satisf">Задовільний</span>
+          </div>
+        </div>
+        <div class="assess-card">
+          <div class="assess-icon">👶</div>
+          <div>
+            <div class="assess-label">Коефіцієнт дитячої смертності</div>
+            <span class="badge satisf">Задовільний</span>
+          </div>
+        </div>
+        <div class="assess-card">
+          <div class="assess-icon">❤️</div>
+          <div>
+            <div class="assess-label">Показник тривалості життя</div>
+            <span class="badge optimal">Оптимальний</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>⚠️ 5 Основних загроз економічній безпеці Канади</h3>
+        <ol class="report-list">
+          <li>
+            <strong>Залежність від сировинного експорту</strong>
+            <p>Економіка Канади значною мірою залежить від експорту нафти, газу та сільськогосподарської продукції, що робить її вразливою до коливань світових цін на сировину та торговельних конфліктів.</p>
+          </li>
+          <li>
+            <strong>Незадовільне сальдо поточного рахунку</strong>
+            <p>Нестабільне сальдо платіжного балансу свідчить про структурний дисбаланс у зовнішній торгівлі та потенційну залежність від іноземного капіталу.</p>
+          </li>
+          <li>
+            <strong>Недостатній розвиток відновлювальної енергетики</strong>
+            <p>Задовільний рівень частки ВДЕ вказує на подальшу залежність від викопного палива та ризики у контексті глобального енергетичного переходу.</p>
+          </li>
+          <li>
+            <strong>Регіональна нерівність та соціальна поляризація</strong>
+            <p>Значні відмінності у рівні добробуту між провінціями та між корінним і некорінним населенням становлять загрозу соціальній згуртованості.</p>
+          </li>
+          <li>
+            <strong>Кліматичні ризики для агросектору</strong>
+            <p>Незважаючи на оптимальний рівень виробництва зерна, кліматичні зміни становлять зростаючу загрозу для сільськогосподарської безпеки Канади.</p>
+          </li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <h3>✅ 5 Рекомендацій для підвищення економічної безпеки Канади</h3>
+        <ol class="report-list rec">
+          <li>
+            <strong>Диверсифікація економіки</strong>
+            <p>Стимулювати розвиток сектору послуг, технологій та переробної промисловості для зниження залежності від сировинного експорту.</p>
+          </li>
+          <li>
+            <strong>Покращення торговельного балансу</strong>
+            <p>Розробити стратегію стимулювання експорту товарів з доданою вартістю та скорочення імпортозалежності у стратегічно важливих секторах.</p>
+          </li>
+          <li>
+            <strong>Прискорення енергетичного переходу</strong>
+            <p>Збільшити інвестиції у відновлювальні джерела енергії, встановити амбітніші цілі та поступово скорочувати субсидії викопному паливу.</p>
+          </li>
+          <li>
+            <strong>Зміцнення соціальної рівності</strong>
+            <p>Розробити цільові програми підтримки регіонів із нижчим рівнем розвитку та корінного населення, забезпечуючи рівний доступ до освіти й охорони здоров'я.</p>
+          </li>
+          <li>
+            <strong>Адаптація агросектору до кліматичних змін</strong>
+            <p>Впровадити програми страхування врожаїв, сталого землекористування та кліматично стійких агротехнологій для захисту продовольчої безпеки.</p>
+          </li>
+        </ol>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function showPage(id, btn) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      btn.classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>
